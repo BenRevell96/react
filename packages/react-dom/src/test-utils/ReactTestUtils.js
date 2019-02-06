@@ -412,7 +412,7 @@ const ReactTestUtils = {
         );
       }
     }
-    ReactDOM.render(<div />, actContainerElement);
+    ReactDOM.render(<div />, getActContainerElement());
     // we want the user to not expect a return,
     // but we want to warn if they use it like they can await on it.
     return {
